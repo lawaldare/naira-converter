@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(bg4.jpg);
+  /* background-repeat: none; */
+  background-size: cover;
+  font-family: 'Merienda', cursive;
+}
+.form-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#input {
+  border: 2px solid red;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#output {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.result {
+  border: 2px solid red;
+  padding: 5px 0px;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+ h1 {
+  letter-spacing: 5px;
+
+}
